@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "cschleiden.vscode-github-actions",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
+        "donjayamanne.githistory"
+    ]
+} 

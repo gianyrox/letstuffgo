@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Git Auto-Commit",
+            "type": "shell",
+            "command": "git add . && git commit -m \"$(git diff --cached --name-only | tr '\n' ' ' | sed 's/$/: Auto-commit on save/') \" && git push origin master",
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "problemMatcher": []
+        }
+    ]
+} 
