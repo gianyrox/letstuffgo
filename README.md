@@ -1,3 +1,5 @@
+https://letstuffgo.store
+
 # Let Stuff Go Website
 
 This is the official website for Let Stuff Go, helping people declutter and simplify their lives.
